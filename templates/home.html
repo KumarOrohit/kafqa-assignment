@@ -1,0 +1,11 @@
+{% extends 'base.html' %} {% block content %}
+<div class="fact-head">Find Factorial!!</div>
+<div class="form">
+  <form action="facto" method="post">
+    {% csrf_token %} <div class="form-text">Enter Number to get Factorial: </div><br />
+    <input class="input" type="text" name="num" /><br /><br>
+    <input class="button" type="submit" />
+  </form>
+</div>
+
+{% endblock %}

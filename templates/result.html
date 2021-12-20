@@ -1,0 +1,12 @@
+{% extends 'base.html' %} {% block content %}
+
+<div class="result-div">
+    {% if result.isspace %}
+    <div class="result">{{result}}</div>
+    {% else %}
+    RESULT for the input:
+    <div class="result">{{result}}</div>
+    {% endif %}
+</div>
+
+{% endblock %}

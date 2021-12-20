@@ -1,0 +1,42 @@
+.body{
+    background-color: rgb(177, 241, 243);
+    padding: 10%;
+}
+.fact-head{
+    font-size: 3em;
+    font-weight: 200;
+    color: rgb(79, 131, 133);
+}
+.form{
+    padding-top: 10px;
+}
+.form-text{
+    font-size: 1.5em;
+}
+.input{
+    height: 30px;
+    width: 60px;
+    border: none;
+    border-radius: 3px;
+    
+}
+.button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(56, 92, 94);
+    color: white;
+    height: 30px;
+    width: 60px;
+}
+.result-div{
+    font-size: 2em; 
+}
+.result{
+    color: rgb(66, 109, 109);
+    font-weight: 300;
+    max-width: 910px;
+    height: fit-content;
+    word-break: break-all;
+
+
+}
